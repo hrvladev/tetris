@@ -1,0 +1,22 @@
+body { background: white; }
+
+.matrix {
+  width: 150px;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+}
+
+.matrix--cell {
+  flex: 0 1 auto;
+  background: #333;
+  height: 15px;
+  width: 15px;
+}
+
+.matrix--block {
+  flex: 0 1 auto;
+  background: hotpink;
+  height: 15px;
+  width: 15px;
+}
